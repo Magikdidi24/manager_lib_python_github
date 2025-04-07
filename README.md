@@ -6,4 +6,4 @@ So :
 3) pip install -r requirements.txt
 4) python main.py [args]
 **EXEMPLE**
-python main.py "scipy>=1.12.0" "matplotlib>=3.8.0" "pandas==1.3.0"
+python main.py "scipy>=1.12.0" "matplotlib>=3.8.0" "pandas==1.3.0" "numpy"
