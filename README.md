@@ -1,5 +1,6 @@
 This script is designed to ASSIST you when encountering issues with conflicting library versions.
 It is recommended to run it within a virtual environment.
+This script has not been tested with edge cases or heavy stress tests. Use with caution.
 So :
 1) clone repository
 2) cd manager_lib_python_github
