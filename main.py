@@ -24,7 +24,6 @@ def check_pip_installed():
         return False, None
 
 def check_pip_latest_version():
-    """Vérifie si pip est à la dernière version disponible."""
     try:
         pip_version_info = subprocess.run(
             [sys.executable, "-m", "pip", "install", "--upgrade", "pip", "--dry-run"],
