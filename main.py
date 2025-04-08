@@ -5,8 +5,8 @@ import importlib
 import subprocess
 import re
 import logging
-from packaging import version
-import pkg_resources
+from packaging import version # type: ignore
+import pkg_resources # type: ignore
 
 logging.basicConfig(
     level=logging.INFO,
